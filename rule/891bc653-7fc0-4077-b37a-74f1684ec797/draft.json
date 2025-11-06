@@ -1,0 +1,72 @@
+{
+ "entityType": "rule",
+ "category": "simpleRule",
+ "data": {
+  "createdAt": "2025-11-06T10:25:14.284Z",
+  "updatedAt": "2025-11-06T10:25:22.551941Z",
+  "isDeleted": false,
+  "testedAt": "2025-11-06T10:25:22.55Z",
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "entityId": "891bc653-7fc0-4077-b37a-74f1684ec797",
+  "name": "sr",
+  "commitId": "commit-d4b688b6-b799-484f-ba36-b1ada4b6302b",
+  "status": "tested",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2025-11-06 10:25:14",
+   "timeStamp": "2025-11-06T10:25:14.284463846Z"
+  },
+  "decisionTable": {
+   
+  },
+  "action": {
+   "then": {
+    
+   },
+   "else": {
+    
+   }
+  },
+  "conditions": {
+   "nodes": {
+    "rule_01": {
+     "nodeType": "group",
+     "children": [
+      "rule_02"
+     ],
+     "siblingIndex": 1
+    },
+    "rule_02": {
+     "name": "Untitled",
+     "nodeType": "excelCondition",
+     "query": "1===1",
+     "parent": "rule_01",
+     "siblingIndex": 1
+    }
+   },
+   "startNode": "rule_01"
+  },
+  "description": "",
+  "version": "draft",
+  "type": "simpleRule",
+  "dataSetId": "",
+  "settings": {
+   "api": {
+    "isEnabled": true,
+    "isPrivate": true
+   },
+   "isEnabled": true,
+   "cachingInfo": {
+    "Enabled": false,
+    "Duration": {
+     "Value": 0,
+     "Unit": ""
+    },
+    "CacheKeys": ""
+   }
+  },
+  "isDemo": false,
+  "schemaVersion": "0.1.1"
+ }
+}
